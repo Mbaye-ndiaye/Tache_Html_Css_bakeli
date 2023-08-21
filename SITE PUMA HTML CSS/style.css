@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
+    
+}
+.flex1{
+    margin-right: 25%;
+    color: white;
+}
+.flex2 {
+    padding-top: 10px;
+} 
+ul, li{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.navbar1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 19%;
+
+}
+.logo{
+    width: 25%;
+    position: relative;
+    right: 20%;
+}
+.logo img{
+    position: relative;
+    bottom: 1em;
+    z-index: 1;
+    width: 60%;
+
+    
+}
+.lien{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    position: absolute;
+    left: 20%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+    border-right: 1px solid;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.icon{
+    width: 8%;
+    display: flex;
+}
+.icon i{
+    font-size: 30px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    align-items: flex-start;
+    padding-top: 29px;
+    padding-bottom:29px;
+}
+.red{
+    text-align: center;
+}
+.photo{
+    background-image: url(chaussure.jpeg);
+    padding-bottom: 25px;
+    background-size: cover;
+    height: 95vh;
+}
+.puma img{
+    text-align: center;
+    margin-top: 100px; 
+}
+.trait{
+    text-align: center; 
+    width: 220px;
+    height: 5px;
+    background-color: orange;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.para{
+    margin: 5%;
+    font-size: 20px;
+    color: #fff;
+}
+span{
+    font-size: 60px;
+}
+.border{
+    text-transform: uppercase;
+    color: #fff;
+    border:  solid #333;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+.image-2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30vh;
+    background-color: gray;
+}
+.item-1{
+    position: relative;
+    bottom: 1em;
+    z-index: 1;
+}
+.paraa{
+    text-align: center;
+    background-color: gray;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 976px){
+    .flex1{
+        margin-right: 5%;
+    }
+    .flex{
+        font-size: 17px;
+    }
+   .navbar1{
+    font-size: 10px;
+    height: 10vh;
+   }
+   .logo{
+    right: 30%;
+    width: 30%;
+   } 
+   .lien{
+    position: absolute;
+    width: 40%;
+    left: 18%;
+    font-size: 15px;
+   }
+   .icon{
+    width: auto;
+    position: absolute;
+    left: 87%;
+   }
+   .icon i{
+    font-size: 20px;
+    left: 20%;
+   }
+   nav a{
+    width: 100%;
+    padding-right: 0px;
+   }
+   .image-2{
+    height: 40vh;
+   }
+
+}
